@@ -1,16 +1,10 @@
-header {
+header, footer  {
     display: flex;
     width: 100%;
 }
 
 main {
-    display: flex;
-    background-color: gray;
-    width: 100%;
-}
-
-footer {
-    display: flex;
+    display: block;
     width: 100%;
 }
 
@@ -23,6 +17,7 @@ footer {
 
 .row {
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
 }
 
@@ -74,8 +69,40 @@ footer {
     width: 100%;
 }
 
+.width100 {
+    width: 100px;
+}
+
+.width300 {
+    width: 100px;
+}
+
+.width500 {
+    width: 500px;
+}
+
 .red {
     background-color: red;
+    height: 100px;
+}
+
+.orange {
+    background-color: orange;
+    height: 100px;
+}
+
+.yellow {
+    background-color: yellow;
+    height: 100px;
+}
+
+.indigo {
+    background-color: indigo;
+    height: 100px;
+}
+
+.violet {
+    background-color: violet;
     height: 100px;
 }
 
